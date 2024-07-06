@@ -2,20 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-     .button{
+@layer utilities {
+     .button {
           @apply px-4 py-3 border border-[#F44335] rounded-full text-xs hover:bg-[#F44335] hover:text-white hover:shadow-lg
      }
-     .buttonSecond{
+
+     .buttonSecond {
           @apply px-5 py-2 border border-[#00000] rounded-full text-xs hover:bg-[#00FF84] hover:text-white hover:shadow-lg
      }
 }
+
 .custom-button {
-     width: 40px; 
-     height: 40px; 
+     width: 40px;
+     height: 40px;
      align-items: center;
      justify-content: center;
 }
+
 @media (max-width: 768px) {
 
      .hide-on-small {
@@ -25,71 +28,71 @@
 
 
 
-     .dark-mode {
-          background-color: #121212;
-          color: #ffffff;
-     }
-     
-     .dark-mode .bg-white {
-          background-color: #333333;
-     }
-     
-     .dark-mode .text-gray-900 {
-          color: #ffffff;
-     }
-     
-     .dark-mode .border-gray-200 {
-          border-color: #333333;
-     }
-     
-     .dark-mode .bg-gray-50 {
-          background-color: #333333;
-     }
-     
-     .dark-mode .hover\\:bg-gray-100:hover {
-          background-color: #444444;
-     }
-     
-     .dark-mode .dark\\:bg-gray-800 {
-          background-color: #121212;
-     }
-     
-     .dark-mode .dark\\:bg-gray-900 {
-          background-color: #121212;
-     }
-     
-     .dark-mode .dark\\:text-white {
-          color: #ffffff;
-     }
-     
-     .dark-mode .dark\\:hover\\:bg-gray-700:hover {
-          background-color: #333333;
-     }
-     
-     #target-section.dark-mode {
+.dark-mode {
      background-color: #121212;
      color: #ffffff;
-     }
+}
 
-     #target-section.dark-mode .bg-[FAFAFA] {
-     background-color: #121212;
-     }
+.dark-mode .bg-white {
+     background-color: #333333;
+}
 
-     #target-section.dark-mode .text-gray-900 {
+.dark-mode .text-gray-900 {
      color: #ffffff;
-     }
+}
 
-     #target-section.dark-mode .text-black {
-     color: #ffffff;
-     }
-
-     #target-section.dark-mode .border {
+.dark-mode .border-gray-200 {
      border-color: #333333;
-     }
+}
 
-     #target-section.dark-mode .hover\\:bg-gray-100:hover {
+.dark-mode .bg-gray-50 {
+     background-color: #333333;
+}
+
+.dark-mode .hover\\:bg-gray-100:hover {
      background-color: #444444;
-     }
+}
+
+.dark-mode .dark\\:bg-gray-800 {
+     background-color: #121212;
+}
+
+.dark-mode .dark\\:bg-gray-900 {
+     background-color: #121212;
+}
+
+.dark-mode .dark\\:text-white {
+     color: #ffffff;
+}
+
+.dark-mode .dark\\:hover\\:bg-gray-700:hover {
+     background-color: #333333;
+}
+
+#target-section.dark-mode {
+     background-color: #121212;
+     color: #ffffff;
+}
+
+#target-section.dark-mode .bg-[FAFAFA] {
+     background-color: #121212;
+}
+
+#target-section.dark-mode .text-gray-900 {
+     color: #ffffff;
+}
+
+#target-section.dark-mode .text-black {
+     color: #ffffff;
+}
+
+#target-section.dark-mode .border {
+     border-color: #333333;
+}
+
+#target-section.dark-mode .hover\\:bg-gray-100:hover {
+     background-color: #444444;
+}
 
 .left_heading {
 
@@ -99,49 +102,50 @@
      line-height: normal;
 }
 
-     @media (min-width: 1024px) {
-          .LeftSection {
+@media (min-width: 1024px) {
+     .LeftSection {
           flex: 0 0 20%;
-          }
-     
-          .RightSection {
-          flex: 0 0 62%;
-          padding-left: 40px; 
-          }
-     
-          .LeftSection > div:last-child {
-          margin-top: 0;
-          }
-     }
-     
-     .LeftSection .btn-group {
-          display: flex;
-          flex-direction: column;
-          gap: 0.5rem;
-     }
-     
-     @media (min-width: 640px) {
-          .LeftSection .btn-group {
-          flex-direction: row;
-          gap: 1.25rem;
-          }
      }
 
-.instructionIMage{
+     .RightSection {
+          flex: 0 0 62%;
+          padding-left: 40px;
+     }
+
+     .LeftSection>div:last-child {
+          margin-top: 0;
+     }
+}
+
+.LeftSection .btn-group {
+     display: flex;
+     flex-direction: column;
+     gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+     .LeftSection .btn-group {
+          flex-direction: row;
+          gap: 1.25rem;
+     }
+}
+
+.instructionIMage {
      transform: rotate(10.304deg);
      flex-shrink: 0;
 }
+
 .dot {
      display: inline-block;
      width: 6px;
      height: 6px;
-     background-color: red; 
+     background-color: red;
      border-radius: 50%;
      margin-right: 5px;
      opacity: 0.3;
 }
 
-.dotsecond{
+.dotsecond {
 
      width: 40px;
      height: 40px;
