@@ -5,7 +5,7 @@
       build: {
       rollupOptions: {
       input: {
-      main: resolve(__dirname, "index.html" , "main.css" , "script.js"),
+      main: resolve(__dirname, "index.html" ),
       },
       },
       },
